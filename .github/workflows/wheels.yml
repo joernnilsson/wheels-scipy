@@ -1,6 +1,9 @@
 name: Build wheels
 
 on:
+  push:
+    branches:
+      - scipy_1.7.3
   workflow_dispatch:
   release:
     types:
