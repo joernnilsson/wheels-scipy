@@ -60,6 +60,6 @@ jobs:
           apk: "build-base;gfortran;openblas-dev;lapack-dev;openblas-dev"
           pip: "Cython;numpy"
           path: "scipy"
-          test: ${{ steps.testing.outputs.testing }}
+          test: false
           local: true
 
